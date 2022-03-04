@@ -10,5 +10,9 @@ public class Controller{
 	public String welcomepage() {
 		return "Welcome to Yawin Tutor";
 	}
+	@RequestMapping("/k")
+	public String k() {
+		return "Welcome to Yawin Tutor";
+	}
 
 }
